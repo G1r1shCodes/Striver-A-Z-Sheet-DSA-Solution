@@ -187,7 +187,7 @@ void pattern14(int num){
         cout<<endl;
     }
 }
-void pattern16(int num){
+void pattern16_01(int num){
     char ch='A';
     for(int i=1;i<=num;i++){
         ch++;
@@ -229,15 +229,103 @@ void pattern17(int num)
         cout<<endl;
     }
 }
-void pattern18(int num){
-    for(int i=1;i<=num;i++){
-        
-        for(int j=num;j>num-i;j--){
-            char ch='A'+num-1;
-            cout<<ch<<" ";
+void pattern18(int num) {
+    for (int i = 0; i < num; i++) {
+        char start = 'E' - i;
+        for (char ch = start; ch <= 'E'; ch++) {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
+}
+void pattern21(int num){
+    for(int i=0;i<num;i++)
+    {
+        for(int j=0;j<num;j++)
+        {
+            if(i==0||i==num-1||j==0||j==num-1)
+            {
+                cout<<"*"<<" ";
 
-            ch--;
-            
+            }
+            else cout<<" "<<" ";
+        }
+        cout<<endl;
+    }
+}
+void pattern19_01(int num){
+    for(int i=1;i<=num;i++)
+    {
+        for(int j=1;j<=num-i+1;j++)
+        {
+            cout<<"*"<<" ";
+        }
+        for(int j=1;j<=2*(i-1);j++)
+        {
+            cout<<" "<<" ";
+        }
+        for(int j=1;j<=num-i+1;j++)
+        {
+            cout<<"*"<<" ";
+        }
+
+        cout<<endl;
+    }
+}
+void pattern19_02(int num){
+    for(int i=1;i<=num;i++)
+    {
+        for(int j=1;j<=i;j++)
+        {
+            cout<<"*"<<" ";
+        }
+        for(int j=1;j<=2*(num-i);j++)
+        {
+            cout<<" "<<" ";
+        }
+        for(int j=1;j<=i;j++)
+        {
+            cout<<"*"<<" ";
+        }
+
+        cout<<endl;
+    }
+}
+void pattern20(int num){
+    int spaces=2*num-2;
+    for(int i=1;i<=2*num-1;i++)
+    {
+        int stars=i;
+        if(i>num) stars=2*num-i;
+        for(int j=1;j<=stars;j++)
+        {
+            cout<<"*"<<" ";
+        }
+        for(int j=1;j<=spaces;j++)
+        {
+            cout<<" "<<" ";
+        }
+        for(int j=1;j<=stars;j++)
+        {
+            cout<<"*"<<" ";
+        }
+        cout<<endl;
+        if (i<num) spaces-=2;
+        else spaces +=2;
+
+    }
+}
+void pattern22(int num)
+{
+    for(int i=0;i<2*num-1;i++)
+    {
+        for(int j=0;j<2*num-1;j++)
+        {
+            int top=i;
+            int left=j;
+            int down=2*num-2-i;
+            int right=2*num-2-j;
+            cout<<(num-min(min(top,down),min(left,right)))<<" ";
         }
         cout<<endl;
     }
@@ -263,8 +351,13 @@ int main()
     pattern13(n);
     pattern14(n);
     pattern15(n);
-    pattern16(n);
+    pattern16_01(n);
     pattern17(n);
     pattern18(n);
+    pattern21(n);
+    pattern19_01(n);
+    pattern19_02(n);
+    pattern20(n);
+    pattern22(n);
     return 0;
 }
