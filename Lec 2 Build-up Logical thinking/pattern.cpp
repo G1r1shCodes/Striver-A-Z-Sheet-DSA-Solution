@@ -268,11 +268,8 @@ void pattern19_01(int num){
         {
             cout<<"*"<<" ";
         }
-
         cout<<endl;
     }
-}
-void pattern19_02(int num){
     for(int i=1;i<=num;i++)
     {
         for(int j=1;j<=i;j++)
@@ -356,7 +353,6 @@ int main()
     pattern18(n);
     pattern21(n);
     pattern19_01(n);
-    pattern19_02(n);
     pattern20(n);
     pattern22(n);
     return 0;
