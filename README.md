@@ -1,119 +1,103 @@
-# 🧠 Striver's A2Z DSA Sheet Solutions by Girish 😺
+# 🐱 Striver's A2Z DSA Sheet Solutions by Girish
 
-Welcome to my journey through the legendary [Striver’s A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) — the most structured and beginner-friendly roadmap to mastering Data Structures and Algorithms!
+Welcome to my purr-sonal coding journey through the [Striver’s A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)!  
+This repo is a structured collection of C++ solutions, following the **Step-by-Step DSA Roadmap** — from basic programming to advanced DSA topics.
 
-This repository contains **well-structured, explained, and optimized C++ solutions** to all problems listed in the course. Whether you're preparing for placements 🧑‍💻, improving coding skills, or learning DSA from scratch, this sheet is your ultimate guide. Let's tame the DSA jungle together 🐱‍👤.
+Let’s conquer DSA one problem at a time… with a few cats by our side 😺
 
 ---
 
-## 🗂️ Structure of the Sheet
+## 🗺️ A2Z DSA Track Checklist
 
-The A2Z sheet is broken into **18 tracks**, each track targeting a specific set of core concepts:
+Use this as your personal checklist ✅  
+Click the track name to go to the official topics and problems.
 
-| Track | Topics | Status |
-|-------|--------|--------|
-| 1️⃣ | Learn the Basics | ✅ In Progress |
-| 2️⃣ | Learn STL | ✅ Done |
-| 3️⃣ | Maths | 🟨 Partial |
-| 4️⃣ | Bit Manipulation | ❌ Coming Soon |
-| 5️⃣ | Recursion | ✅ Done |
-| 6️⃣ | Searching | ✅ Done |
-| 7️⃣ | Sorting | ✅ Done |
-| 8️⃣ | Hashing | 🟨 Partial |
-| 9️⃣ | 2 Pointers & Sliding Window | ✅ Done |
-| 🔟 | Linked Lists | ✅ Done |
-| 11️⃣ | Arrays (Hard) | ✅ Done |
-| 12️⃣ | Greedy | ❌ Coming Soon |
-| 13️⃣ | Backtracking | ✅ Done |
-| 14️⃣ | Stacks & Queues | ✅ Done |
-| 15️⃣ | Binary Trees & BST | 🟨 Partial |
-| 16️⃣ | Heaps | ❌ Coming Soon |
-| 17️⃣ | Graphs | ❌ Coming Soon |
-| 18️⃣ | Dynamic Programming | ❌ Coming Soon |
+| ✅ | Track | Topics |
+|----|-------|--------|
+| [ ] | [**Step 1**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-1) | Learn the Basics (input/output, if-else, loops, patterns) |
+| [ ] | [**Step 2**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-2) | Learn STL |
+| [ ] | [**Step 3**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-3) | Mathematics |
+| [ ] | [**Step 4**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-4) | Bit Manipulation |
+| [ ] | [**Step 5**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-5) | Recursion |
+| [ ] | [**Step 6**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-6) | Searching |
+| [ ] | [**Step 7**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-7) | Sorting |
+| [ ] | [**Step 8**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-8) | Hashing |
+| [ ] | [**Step 9**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-9) | Two Pointers & Sliding Window |
+| [ ] | [**Step 10**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-10) | Linked Lists |
+| [ ] | [**Step 11**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-11) | Arrays (Hard) |
+| [ ] | [**Step 12**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-12) | Greedy Algorithms |
+| [ ] | [**Step 13**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-13) | Backtracking |
+| [ ] | [**Step 14**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-14) | Stack and Queue |
+| [ ] | [**Step 15**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-15) | Binary Trees |
+| [ ] | [**Step 16**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-16) | Binary Search Trees (BST) |
+| [ ] | [**Step 17**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-17) | Heaps |
+| [ ] | [**Step 18**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-18) | Graphs |
+| [ ] | [**Step 19**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-19) | Dynamic Programming |
+| [ ] | [**Step 20**](https://takeuforward.org/interviews/strivers-dsa-sheet-topics-covered/#step-20) | Final 450 DSA Cracker Sheet |
 
-✔️ = Completed | 🟨 = In Progress | ❌ = Coming Soon
+> You can edit this README and check items off as you progress. Let's code! 🧠🐾
 
 ---
 
 ## 📁 Folder Structure
 
-```bash
+```
+
 Striver-A-Z-Sheet-DSA-Solution/
 │
-├── 01_Learn_the_Basics/
-├── 02_STL/
-├── 03_Math/
-├── 04_Bit_Manipulation/
+├── 01\_Basics/
+├── 02\_STL/
+├── 03\_Math/
 ├── ...
-└── 18_DP/
-````
+└── 20\_Final\_450/
+
+```
 
 Each folder contains:
 
-* ✅ C++ code for each question
-* 📝 Proper comments and clean syntax
-* 🧠 Logic explained (coming soon as markdown notes!)
+- ✅ **C++ solutions**
+- ✍️ **Well-commented code**
+- 📘 (Soon) Concept notes in `.md`
 
 ---
 
-## 💡 Why This Sheet?
+## 🛠️ Tech Used
 
-* 📌 Covers **everything from scratch** (zero to hero)
-* 📌 Structured for **placements and interviews**
-* 📌 High-quality **Striver-curated problems**
-* 📌 Concept clarity through **practical coding**
-
-> "Success in coding is 90% practice and 10% cats walking on your keyboard." – Me 😹
+- Language: **C++**
+- Editor: **VS Code**
+- Reference: [Striver’s Official Site](https://takeuforward.org/)
 
 ---
 
-## 🛠️ Tech Stack
+## 😺 Fun Zone
 
-* Language: **C++**
-* IDE: VS Code
-* Source: [Striver’s A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
-
----
-
-## 🐾 Progress Tracking
-
-Keep track of your DSA learning like a curious cat 🐈
-
-* 🗓️ Daily goal: 2–3 problems
-* 🔁 Revisions: Weekly
-* 🧩 Practice on: LeetCode, GFG, CodeStudio
-
----
-
-## 📌 Contribute?
-
-This is a personal journey, but you’re always welcome to fork, suggest improvements, or solve alternate versions. Feel free to open an issue or a PR. Let's grow together 🐾
-
----
-
-## 🙌 Credits
-
-* Thanks to [Striver](https://www.linkedin.com/in/rajarv/) (Raj Vikramaditya) for creating this course.
-* Inspired by many open-source learners and contributors!
-
----
-
-## 📸 Fun Zone
-
-Because coding without cats is just 🥱
+Because learning DSA should be *cat-tastic* 🐱
 
 <p align="center">
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200"/>
-  <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" width="200"/>
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="180"/>
+  <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" width="180"/>
+  <img src="https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif" width="180"/>
 </p>
 
 ---
 
 ## ⭐ Show Some Love
 
-If you like this repo, consider giving it a ⭐ and following me on [GitHub](https://github.com/G1r1shCodes) — more cool projects and cats await 😸
+If you like this project:
+
+- Star ⭐ the repo
+- Fork 🍴 it
+- Share 🐾 with friends
+- Track your progress using this checklist
+
+> _"Practice makes purr-fect."_ 🐾  
+> Keep coding. Keep growing. And pet a cat while you're at it 😸
 
 ---
 
-> **“Consistency is the key to mastery.”**
-> Keep pushing forward — the code jungle will soon feel like home 🐾
+## 🙌 Special Thanks
+
+- 💡 [Take U Forward - Striver](https://www.linkedin.com/in/rajarv/)
+- 👨‍💻 Everyone contributing to open-source DSA learning
+
+---
