@@ -1,66 +1,119 @@
----
+# 🧠 Striver's A2Z DSA Sheet Solutions by Girish 😺
 
-# 🚀 DSA in C++ (Striver A-Z Course)
+Welcome to my journey through the legendary [Striver’s A2Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2) — the most structured and beginner-friendly roadmap to mastering Data Structures and Algorithms!
 
-This repository contains my C++ solutions for DSA topics from the **Striver A-Z DSA Course**.
-
----
-
-## 📌 About
-
-* **Language:** C++
-* **Source:** [Striver’s A-Z DSA Course](https://takeuforward.org/strivers-a2z-dsa-course/)
-* **Goal:** To master Data Structures and Algorithms in C++.
+This repository contains **well-structured, explained, and optimized C++ solutions** to all problems listed in the course. Whether you're preparing for placements 🧑‍💻, improving coding skills, or learning DSA from scratch, this sheet is your ultimate guide. Let's tame the DSA jungle together 🐱‍👤.
 
 ---
 
-## 📁 Structure
+## 🗂️ Structure of the Sheet
 
-```
-.
-├── Arrays/
-├── LinkedLists/
-├── Trees/
-├── Graphs/
-├── DynamicProgramming/
-└── ...
-```
+The A2Z sheet is broken into **18 tracks**, each track targeting a specific set of core concepts:
 
-Each folder contains solutions for that topic.
+| Track | Topics | Status |
+|-------|--------|--------|
+| 1️⃣ | Learn the Basics | ✅ In Progress |
+| 2️⃣ | Learn STL | ✅ Done |
+| 3️⃣ | Maths | 🟨 Partial |
+| 4️⃣ | Bit Manipulation | ❌ Coming Soon |
+| 5️⃣ | Recursion | ✅ Done |
+| 6️⃣ | Searching | ✅ Done |
+| 7️⃣ | Sorting | ✅ Done |
+| 8️⃣ | Hashing | 🟨 Partial |
+| 9️⃣ | 2 Pointers & Sliding Window | ✅ Done |
+| 🔟 | Linked Lists | ✅ Done |
+| 11️⃣ | Arrays (Hard) | ✅ Done |
+| 12️⃣ | Greedy | ❌ Coming Soon |
+| 13️⃣ | Backtracking | ✅ Done |
+| 14️⃣ | Stacks & Queues | ✅ Done |
+| 15️⃣ | Binary Trees & BST | 🟨 Partial |
+| 16️⃣ | Heaps | ❌ Coming Soon |
+| 17️⃣ | Graphs | ❌ Coming Soon |
+| 18️⃣ | Dynamic Programming | ❌ Coming Soon |
+
+✔️ = Completed | 🟨 = In Progress | ❌ = Coming Soon
 
 ---
 
-## 🛠️ Usage
-
-Clone this repo:
+## 📁 Folder Structure
 
 ```bash
-git clone https://github.com/<your-username>/DSA-in-CPP.git
-cd DSA-in-CPP
-```
+Striver-A-Z-Sheet-DSA-Solution/
+│
+├── 01_Learn_the_Basics/
+├── 02_STL/
+├── 03_Math/
+├── 04_Bit_Manipulation/
+├── ...
+└── 18_DP/
+````
 
-Compile and run a file:
+Each folder contains:
 
-```bash
-g++ filename.cpp -o output
-./output
-```
-
----
-
-## 🤝 Contributing
-
-Feel free to fork, improve, and send PRs!
-
----
-
-## 🌟 Acknowledgements
-
-Thanks to **Striver** for the amazing course!
-Let’s keep coding and growing together! 🚀
+* ✅ C++ code for each question
+* 📝 Proper comments and clean syntax
+* 🧠 Logic explained (coming soon as markdown notes!)
 
 ---
 
-**Happy coding!** ✨
+## 💡 Why This Sheet?
+
+* 📌 Covers **everything from scratch** (zero to hero)
+* 📌 Structured for **placements and interviews**
+* 📌 High-quality **Striver-curated problems**
+* 📌 Concept clarity through **practical coding**
+
+> "Success in coding is 90% practice and 10% cats walking on your keyboard." – Me 😹
 
 ---
+
+## 🛠️ Tech Stack
+
+* Language: **C++**
+* IDE: VS Code
+* Source: [Striver’s A2Z DSA Course Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)
+
+---
+
+## 🐾 Progress Tracking
+
+Keep track of your DSA learning like a curious cat 🐈
+
+* 🗓️ Daily goal: 2–3 problems
+* 🔁 Revisions: Weekly
+* 🧩 Practice on: LeetCode, GFG, CodeStudio
+
+---
+
+## 📌 Contribute?
+
+This is a personal journey, but you’re always welcome to fork, suggest improvements, or solve alternate versions. Feel free to open an issue or a PR. Let's grow together 🐾
+
+---
+
+## 🙌 Credits
+
+* Thanks to [Striver](https://www.linkedin.com/in/rajarv/) (Raj Vikramaditya) for creating this course.
+* Inspired by many open-source learners and contributors!
+
+---
+
+## 📸 Fun Zone
+
+Because coding without cats is just 🥱
+
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200"/>
+  <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" width="200"/>
+</p>
+
+---
+
+## ⭐ Show Some Love
+
+If you like this repo, consider giving it a ⭐ and following me on [GitHub](https://github.com/G1r1shCodes) — more cool projects and cats await 😸
+
+---
+
+> **“Consistency is the key to mastery.”**
+> Keep pushing forward — the code jungle will soon feel like home 🐾
